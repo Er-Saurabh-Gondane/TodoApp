@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import ToDoList from './components/ToDoList'
-import ToDoItem from './components/ToDoItem'
+// import ToDoItem from './components/ToDoItem'
 
 const App = () => {
   return (
