@@ -1,16 +1,56 @@
-# React + Vite
+# 📝 To-Do List App (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive To-Do List web application built using **React JS** and **Tailwind CSS**. This application helps users manage daily tasks efficiently with a clean and minimal UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Features
 
-## React Compiler
+- ✅ Add new tasks
+- ✔️ Mark tasks as completed
+- ❌ Delete tasks
+- 🎨 Clean and responsive UI
+- ⚡ Fast performance using React
+- 📱 Mobile-friendly design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React JS (Functional Components & Hooks)
+- Tailwind CSS
+
+### Tools
+- Vite
+- Font Awesome (Icons)
+- JavaScript (ES6+)
+
+---
+
+## 📂 Project Structure
+src/
+│
+├── components/
+│ ├── ToDoList.jsx
+│ ├── ToDoItem.jsx
+│ └── Header.jsx
+│
+├── assets/
+│ └── todo_icon.png
+│
+├── App.jsx
+└── main.jsx
+
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Er-Saurabh-Gondane/TodoApp.git
+
