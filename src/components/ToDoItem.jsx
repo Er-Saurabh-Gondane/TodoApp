@@ -6,6 +6,7 @@ import delete_icom from "../assets/delete.png";
 function ToDoItem({ text, deleteTodo, id, toggle, isComplete, startEdit }) {
   return (
     <div className="flex items-center my-3 gap-2">
+       {/* Left Section → Toggle completion */}
       <div
         onClick={() => toggle(id)}
         className="flex flex-1 cursor-pointer items-center "
@@ -24,6 +25,7 @@ function ToDoItem({ text, deleteTodo, id, toggle, isComplete, startEdit }) {
           {text}
         </p>
       </div>
+      {/* Right Section → Edit and Delete buttons */}
       <div className="flex items-center gap-2">
         <i
           onClick={() => startEdit(id, text)}
